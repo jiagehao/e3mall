@@ -7,7 +7,6 @@
 		<artifactId>e3-parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<groupId>cn.e3mall</groupId>
 	<artifactId>e3-manager</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
