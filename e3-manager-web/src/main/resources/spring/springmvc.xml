@@ -11,6 +11,8 @@
 
 	<context:component-scan base-package="cn.e3mall.controller" />
 	<mvc:annotation-driven />
+	<mvc:resources location="/WEB-INF/js/" mapping="/js/**"/>
+	<mvc:resources location="/WEB-INF/css/" mapping="/css/**"/>
 	<bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<property name="prefix" value="/WEB-INF/jsp/" />
